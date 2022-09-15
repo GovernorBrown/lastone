@@ -25,7 +25,7 @@ app.use(bodyparser.urlencoded({extended:true, limit:'5mb'}));
 
 app.use(bodyparser.json({limit:'5mb'}))
 
-let srcpath = path.resolve(__dirname, "../lastone/public")
+let srcpath = path.resolve(__dirname, "../frontend/public")
 
 app.use(express.static('public'))
 
